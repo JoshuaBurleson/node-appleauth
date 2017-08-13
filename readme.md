@@ -68,7 +68,7 @@ app.use(bodyParser.urlencoded({extended:false}));
 app.get('/', (req, res) => {res.render('login')});
 
 app.post('/', (req, res) => {
-    let entered = new appleAuth(req.body.username, req.body.password, function(err, data){
+    new appleAuth(req.body.username, req.body.password, function(err, data){
         if(err){
             console.log('error');
             res.end(String(err));
