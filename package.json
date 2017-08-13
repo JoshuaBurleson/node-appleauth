@@ -24,8 +24,5 @@
   "bugs": {
     "url": "https://github.com/JoshuaBurleson/node-appleauth/issues"
   },
-  "homepage": "https://github.com/JoshuaBurleson/node-appleauth#readme",
-  "dependencies": {
-    "express": "^4.15.4"
-  }
+  "homepage": "https://github.com/JoshuaBurleson/node-appleauth#readme"
 }
