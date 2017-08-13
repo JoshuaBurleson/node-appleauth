@@ -7,7 +7,7 @@ Node AppleAuth is a lightweight, easy to use, novelty utilization of iCloud's lo
 `const appleAuth = require('node-appleauth')`
 
 #### Usage
-Calling a new appleAuth object will return a user data object in the following format:
+Calling a new appleAuth object takes three arguments (username, password, callback) and will return a user data object in the following format to the callback:
 `{"name":"Elliot Alderson","email":"elliot.alderson@allsafe.com"}`
 ###### With Await/Async
 ```javascript
