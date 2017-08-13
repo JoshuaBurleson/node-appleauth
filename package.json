@@ -1,0 +1,28 @@
+{
+  "name": "node-appleauth",
+  "version": "1.0.0",
+  "description": "Novel user authentication using iCloud Login",
+  "main": "node-appleauth.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshuaBurleson/node-appleauth.git"
+  },
+  "keywords": [
+    "Auth",
+    "Authorization",
+    "Apple",
+    "iCloud",
+    "Node",
+    "Node.js",
+    "Login"
+  ],
+  "author": "Joshua Burleson",
+  "license": "BSD-4-Clause",
+  "bugs": {
+    "url": "https://github.com/JoshuaBurleson/node-appleauth/issues"
+  },
+  "homepage": "https://github.com/JoshuaBurleson/node-appleauth#readme"
+}
