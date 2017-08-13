@@ -1,15 +1,15 @@
-#Node AppleAuth
+# Node AppleAuth
 Node AppleAuth is a lightweight, easy to use, novelty utilization of iCloud's login API for simple user authentication.
 
-####Installation
+#### Installation
 `npm install node-appleauth --save`
 
 `const appleAuth = require('node-appleauth')`
 
-####Usage
+#### Usage
 Calling a new appleAuth object will return a user data object in the following format:
 `{"name":"Elliot Alderson","email":"elliot.alderson@allsafe.com"}`
-######With Await/Async
+###### With Await/Async
 ```javascript
 const express = require('express');
       appleAuth = require('node-appleauth');
@@ -52,7 +52,7 @@ const port = 3000 || process.env.port;
 app.listen(port, function(){console.log(`Listening on port: ${port}`)});
 ```
 
-######Without Await/Async
+###### Without Await/Async
 ```javascript
 const express = require('express');
       appleAuth = require('node-appleauth');
